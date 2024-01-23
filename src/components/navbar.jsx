@@ -1,5 +1,9 @@
-import React from "react"
+import React from "react";
 
+
+async function ConnectWallet() {
+  console.log('connecting wallet....')
+}
 
 function Navbar() {
     return(
@@ -7,7 +11,7 @@ function Navbar() {
         <div>
           <h1 className='name text-2xl md:text-4xl'> Elijah Victor</h1>
         </div>
-        <button className=" w-2/5 md:w-auto p-3 rounded-xl bg-black text-white text-sm md:text-lg hover:text-xl"> Connect Wallet</button>
+        <button onClick={ConnectWallet} className=" w-2/5 md:w-auto p-3 rounded-xl bg-black text-white text-sm md:text-lg "> Connect Wallet</button>
       </nav>
     )
 }
