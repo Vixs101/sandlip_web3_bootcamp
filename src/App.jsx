@@ -9,11 +9,11 @@ function App() {
         <div>
           <h1 className='name text-4xl'> Elijah Victor</h1>
         </div>
-        <button className="border-2 p-3 rounded-xl bg-black text-white text-lg hover:"> Connect Wallet</button>
+        <button className="p-3 rounded-xl bg-black text-white text-lg hover:text-xl"> Connect Wallet</button>
       </nav>
 
       <div className=" flex w-full h-96 items-center justify-center bg-gray-50">
-        <div className="flex flex-col gap-3 w-1/3  border-black rounded-xl py-3 px-3 bg-gray-200 shadow-lg" >
+        <div className="flex flex-col gap-3 w-1/3 border-2 border-black rounded-xl py-3 px-3 bg-gray-200 shadow-lg" >
           <form action="submit" className="flex flex-col gap-4">
             {/* receivers wallet */}
             <div className="flex justify-between bg-gray-50 items-center rounded-lg px-2">
