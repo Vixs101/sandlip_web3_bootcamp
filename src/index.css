@@ -6,3 +6,7 @@
 .name {
   font-family: 'Sevillana', cursive;
 }
+body{
+  height: 100%;
+  width: 100%;
+}
