@@ -12,8 +12,8 @@ function App() {
         <button className="border-2 p-3 rounded-xl bg-black text-white text-lg"> Connect Wallet</button>
       </nav>
 
-      <div className=" flex w-full h-screen items-center justify-center bg-gray-50">
-        <div className="border-2 border-black w-1/3 py-3 px-3" >
+      <div className=" flex w-full h-screen mt-auto justify-center bg-gray-50">
+        <div className="w-1/3 h-1/3 border-2 border-black py-3 px-3 bg-gray-200" >
           <form action="submit" >
             <input type="text" id="address" name="walletAddress"/>
             <svg 
