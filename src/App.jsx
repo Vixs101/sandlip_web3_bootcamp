@@ -1,17 +1,12 @@
-import React from "react"
+import React from "react";
+import Navbar from "./components/navbar.jsx"
 
 
 function App() {
 
   return (
     <>
-      <nav className='flex justify-between items-center py-3 px-4 bg-gray-200'>
-        <div>
-          <h1 className='name text-2xl md:text-4xl'> Elijah Victor</h1>
-        </div>
-        <button className=" w-2/5 md:w-auto p-3 rounded-xl bg-black text-white text-sm md:text-lg hover:text-xl"> Connect Wallet</button>
-      </nav>
-
+      <Navbar/>
       <div className=" flex w-full h-96 items-center justify-center bg-gray-50">
         <div className="flex flex-col gap-3 w-66 md:w-1/3 border-2 border-black rounded-xl py-3 px-3 bg-gray-200 shadow-lg" >
           <form action="submit" className="flex flex-col gap-4">
