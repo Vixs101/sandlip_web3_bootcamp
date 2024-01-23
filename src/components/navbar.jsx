@@ -42,9 +42,9 @@ function Navbar() {
       <div>
         <h1 className='name text-2xl md:text-4xl'> Elijah Victor</h1>
       </div>
-      <div className="flex flex-col gap-2 w-2/5 md:w-auto font-semibold">
-        <button onClick={loadWalletInfo} className="w-full md:w-auto p-3 rounded-xl bg-black text-white text-sm md:text-lg "> Connect Wallet</button>
-        <h3 className="">Wallet Balance $: {walletBalance} </h3>
+      <div className="flex flex-col gap-2 w-2/5 md:w-auto font-semibold text-sm md:text-lg">
+        <button onClick={loadWalletInfo} className="w-full md:w-auto p-3 rounded-xl bg-black text-white  "> Connect Wallet</button>
+        <h3 className="ml-2">Wallet Balance $: {walletBalance} </h3>
       </div>
       </nav>
     )
