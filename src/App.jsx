@@ -11,6 +11,10 @@ function App() {
         </div>
         <button className="border-2 p-3 rounded-xl bg-black text-white text-lg"> Connect Wallet</button>
       </nav>
+
+      <div>
+        fi
+      </div>
     </>
   )
 }
