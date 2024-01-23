@@ -44,7 +44,7 @@ function Navbar() {
       </div>
       <div className="flex flex-col gap-2 w-2/5 md:w-auto font-semibold text-sm md:text-lg">
         <button onClick={loadWalletInfo} className="w-full md:w-auto p-3 rounded-xl bg-black text-white  "> Connect Wallet</button>
-        <h3 className="ml-2">Wallet Balance $: {walletBalance} </h3>
+        <h3 className="ml-2 text-sm">Wallet Balance $: {walletBalance} </h3>
       </div>
       </nav>
     )
