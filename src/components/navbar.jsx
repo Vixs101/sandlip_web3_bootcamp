@@ -37,10 +37,10 @@ function Navbar() {
     };
   };
 
-    // useEffect(() => {
-    //   // load wallet info 
-    //   loadWalletInfo()
-    // }, []);
+    useEffect(() => {
+      // load wallet info 
+      loadWalletInfo()
+    }, []);
 
   return(
     <nav className='flex justify-between items-center py-3 px-4 bg-gray-200'>
